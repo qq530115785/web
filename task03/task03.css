@@ -1,0 +1,50 @@
+body{
+    background-color: aqua;
+    width: 100%;
+height:4rem;
+}
+.S-one{
+    height: 54px;
+    padding:15px;
+}
+.Z-one{
+    height: 90px;
+    text-align: center;
+}
+.X-one{
+    height: 65px;
+    padding: 34px;
+}
+.X-one p{
+    height: 143px;
+    color: aliceblue;
+    text-align: center;
+}
+.T-one{
+    height: 20px;
+    width: 124px;
+    padding-left: 10px;
+}
+.T-two{
+    padding-top: 85px;
+    padding-left: 48px;
+}
+.T-three{
+    padding-left: 33px;
+    color: aliceblue;
+}
+.T-four{
+    height: 20px;
+    width: 303px;
+    float: right;
+}
+.T-five{
+    padding-left:180px;
+    padding-top: 64px;
+}
+.T-six{
+    height: 22px;
+    width: 75px;
+    color: aliceblue;
+    padding-left:168px;
+}
