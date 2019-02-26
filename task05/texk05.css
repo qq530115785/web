@@ -1,13 +1,17 @@
 .s-one-a{
     height:56px;
     background-color: #5fc0cd;
+    position: fixed;
+    width: 100%;
 }
 .s-one-b{
     padding-top: 17px;
     padding-left: 35px;
+    width: 11px;
+    height: 21px;
 }
 .s-one-c{
-    height: 50px;
+    height: 39px;
     text-align: center;
     font-size: 19px;
     color: #ffffff;
@@ -15,16 +19,59 @@
     top: 17px;
     left: 43%;
 }
-.s-two-b{
+.box{
+    height: 56px;
+}
+.s-two-a{
     width: 100%;
     height: 146px;
+    background-image: url("inm/task5-beijing.png");
+    background-size:cover;
+    display: flex;
+}
+.s-two-b{
+    padding-top: 45px;
+    padding-left: 25px;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    padding-bottom: 31px;
+}
+.box-a{
+    display: flex;
+    padding-top: 57px;
+    padding-left: 19px;
+    color: #ffffff;
+    height: 20px;
+}
+.s-two-a p{
+    margin: 0;
+}
+.s-two-a span{
+    padding-left: 12px;
+    font-size: 14px;
+    padding-top: 2px;
+}
+.s-two-c{
+    position: absolute;
+    padding-top: 81px;
+    padding-left: 115px;
+    width: 12px;
+    height: 16px;
+}
+.s-two-d{
+    font-size: 11px;
+    position: absolute;
+    color: #ffffff;
+    padding-top: 81px;
+    padding-left: 135px;
 }
 .z-one-a{
     margin-left: 14px;
     padding-left: 14px;
     border-left: 2px solid;
     border-left-color: #5fc0cd;
-    margin-top: 11px;
+    margin-top: 13px;
 }
 .z-two-a{
     margin-top: 14px;
@@ -66,7 +113,6 @@
     height: 20px;
 }
 .z-four-a{
-    margin-top: 14px;
     padding-top: 14px;
     border-top: 1px solid;
     border-top-color: #e1e5e7;
@@ -89,7 +135,6 @@
     height: 20px;
 }
 .z-five-a{
-    margin-top: 14px;
     padding-top: 14px;
     border-top: 1px solid;
     border-top-color: #e1e5e7;
@@ -113,7 +158,6 @@
     color:  #e26163;
 }
 .z-six-a{
-    margin-top: 14px;
     padding-top: 14px;
     border-top: 1px solid;
     border-top-color: #e1e5e7;
@@ -121,6 +165,9 @@
     display: inline-flex;
     width: 93%;
     margin-left: 20px;
+    border-bottom: 1px solid;
+    border-bottom-color: #e1e5e7;
+    padding-bottom: 2%;
 }
 .z-six-a p{
     height: 26px;
@@ -128,21 +175,22 @@
     margin-left: 15px;
     padding-right: 27px;
     color: #999999;
-    width: 171px;
+    width: 65px;
     margin-top: 19px;
     border-right: 1px solid;
     border-right-color: #e1e5e7;
+    position: absolute;
 }
 .z-six-a span{
-    padding-left: 15px;
-    height: 64px;
+    padding-left: 124px;
+    height: 135px;
 }
 .x-one-a{
-    height: 55px;
-    margin-top: 14px;
-    border-top: 1px solid;
-    border-top-color: #e1e5e7;
-    padding-top: 45px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff;
+    padding-top: 17px;
 }
 .x-one-b{
     font-size: 17px;
@@ -171,4 +219,7 @@
     float: right;
     margin-right: 20px;
     width: 22%;
+}
+.box{
+    height: 56px;
 }
