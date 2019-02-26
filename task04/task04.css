@@ -36,10 +36,10 @@
     margin-top: 12px;
 }
 .z-one-a{
-    padding-top: 8px;
     padding-left: 27px;
     border-right: 1px solid #bababa;
     padding-right: 25px;
+    margin-top: 7px;
 }
 .z-one-b{
     border: antiquewhite;
@@ -55,11 +55,10 @@
     margin-top: 12px;
 }
 .z-two-b{
-    padding-top: 3px;
     padding-left: 27px;
     border-right: 1px solid #bababa;
     padding-right: 25px;
-
+    margin-top: 13px;
 }
 .z-two-c{
     border: antiquewhite;
@@ -67,7 +66,9 @@
     height: 41px;
     position: absolute;
     top: 134px;
-    outline:medium
+    outline:medium;
+    width: 100%;
+    margin-top: 12px;
 }
 
 .x-one-a{
@@ -87,4 +88,8 @@
     float: right;
     padding-right: 10px;
     color: #5fc0cd;
+}
+.box{
+    background-color: #eff0f4;
+    height: 29rem;
 }
