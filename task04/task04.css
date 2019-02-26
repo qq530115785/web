@@ -48,6 +48,7 @@
     position: absolute;
     top: 69px;
     outline:medium;
+    width: 222px;
 }
 .z-two-a{
     height: 58px;
@@ -67,7 +68,7 @@
     position: absolute;
     top: 134px;
     outline:medium;
-    width: 100%;
+    width: 222px;
     margin-top: 12px;
 }
 
@@ -89,7 +90,6 @@
     padding-right: 10px;
     color: #5fc0cd;
 }
-.box{
+body{
     background-color: #eff0f4;
-    height: 29rem;
 }
