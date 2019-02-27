@@ -138,52 +138,65 @@
     padding-top: 14px;
     border-top: 1px solid;
     border-top-color: #e1e5e7;
-    height: 36px;
+    height: 50px;
     display: inline-flex;
     width: 93%;
     margin-left: 20px;
+    border-bottom: 1px solid;
+    border-bottom-color: #e1e5e7;
 }
 .z-five-a p{
-    height: 20px;
+    display: flex;
+    align-items: center;
+    height: 41px;
     margin: 0px;
     margin-left: 15px;
     padding-right: 27px;
     color: #999999;
 }
 .z-five-a span{
+    padding-top: 0px;
+    margin-top: 8px;
+}
+.z-five-a span {
     padding-left: 15px;
     border-left: 1px solid;
     border-left-color: #e1e5e7;
-    height: 20px;
-    color:  #e26163;
+    height: 26px;
+    color: #e26163;
 }
 .z-six-a{
-    padding-top: 7px;
-    border-top: 1px solid;
-    border-top-color: #e1e5e7;
-    height: 62px;
-    display: inline-flex;
-    width: 93%;
-    margin-left: 20px;
+    padding-top: 8px;
+    height: 54px;
+    margin-bottom: 4rem;
     border-bottom: 1px solid;
+    padding-bottom: 8px;
     border-bottom-color: #e1e5e7;
-    padding-bottom: 2%;
 }
+
 .z-six-a p{
-    height: 26px;
+    display: flex;
+    align-items: center;
     margin: 0px;
     margin-left: 15px;
     padding-right: 27px;
     color: #999999;
-    width: 65px;
-    margin-top: 19px;
+    position: absolute;
+    top: 495px;
+    left: 20px;
     border-right: 1px solid;
     border-right-color: #e1e5e7;
-    position: absolute;
 }
 .z-six-a span{
-    padding-left: 124px;
-    height: 135px;
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    padding-left: 15px;
+    border-left: 1px solid;
+    border-left-color: #e1e5e7;
+    height: 26px;
+    color: #e26163;
+    padding-left: 141px;
 }
 .x-one-a{
     position: fixed;
@@ -205,6 +218,7 @@
     border-radius:7px;
     float: left;
     width: 11%;
+    text-align: center;
 }
 .x-one-c{
     font-size: 17px;
