@@ -102,11 +102,10 @@ body{
 .x-one-a{
     margin: 0px;
     position: fixed;
-    bottom: 6px;
     left: 7%;
     padding-top: 12px;
-    padding-bottom: 12px;
-    top: 487px;
+    padding-bottom: 10px;
+    top: 91%;
     padding-left: 7%;
     padding-right: 7%;
     background-color: #f66f6f;
@@ -116,11 +115,10 @@ body{
 .x-one-b{
     margin: 0px;
     position: fixed;
-    bottom: 6px;
     right: 7%;
     padding-top: 12px;
-    padding-bottom: 12px;
-    top: 487px;
+    padding-bottom: 10px;
+    top: 91%;
     padding-left: 7%;
     padding-right: 7%;
     background-color: #fbb435;

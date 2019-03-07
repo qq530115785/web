@@ -48,7 +48,7 @@ body{
 }
 .s-two-b{
     position: absolute;
-    left: 72%;
+    right: 0%;
     opacity: 0;
     width: 88px;
 }
@@ -127,7 +127,7 @@ body{
     color: #fff;
 }
 .box-a{
-    height: 61px;
+    height: 120px;
 }
 a{
 text-decoration : none;
