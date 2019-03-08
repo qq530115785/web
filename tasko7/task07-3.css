@@ -54,6 +54,14 @@ body{
     margin-left: 7%;
     color: #ffffff;
 }
+.z-two-cx{
+    margin-left: 7%;
+    color: #ffffff;
+    letter-spacing: 12px;
+}
+.z-two-cxx{
+    color: #ffffff;
+}
 .z-two-d{
     margin: 0;
     margin-left: 7%;
@@ -65,18 +73,18 @@ body{
     border-bottom-color: #dddddd
 }
 .z-three-a{
-    margin-left: 22px;
+    margin-left: 7%;
     font-size: 15px;
 }
 .z-three-b{
     margin-left: 101px;
-    font-size: 12px;
+    font-size: 7%;
     margin-top: 3px;
     color: #c7c7c7;
 }
 .z-three-c{
     margin: 0;
-    margin-left: 22px;
+    margin-left: 7%;
     font-size: 13px;
     color: #a6a6a6;
     margin-top: 3px;
@@ -84,7 +92,7 @@ body{
 }
 .z-three-d{
     margin: 0;
-    margin-left: 22px;
+    margin-left: 7%;
     font-size: 13px;
     color: #a6a6a6;
 }
@@ -106,8 +114,8 @@ body{
     padding-top: 12px;
     padding-bottom: 10px;
     top: 91%;
-    padding-left: 7%;
-    padding-right: 7%;
+    padding-left: 9%;
+    padding-right: 9%;
     background-color: #f66f6f;
     border-radius: 8px;
     color: #ffffff;

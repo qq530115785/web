@@ -44,13 +44,14 @@ body{
 }
 .s-two-a{
     margin-top: 6px;
-    margin-right: 38px;
+    margin-right: 8px;
 }
 .s-two-b{
     position: absolute;
     right: 0%;
     opacity: 0;
     width: 88px;
+    transform: rotate(180deg);
 }
 .s-three{
     width: 0;
