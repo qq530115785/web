@@ -1,0 +1,135 @@
+body{
+    background-color: #29bde0;
+    margin: 0;
+}
+.s-one{
+    display: flex;
+    height: 69px;
+    position: fixed;
+    width: 100%;
+    background-color: #29bde0;
+    justify-content: space-between;
+    align-items: center;
+}
+.s-one-a{
+    margin-left: 14px;
+    height: 30px;
+    width: 30px;
+}
+.s-one p{
+    font-size: 28px;
+    display: inline-block;
+    color: #ffffff;
+    margin: 0;
+}
+.s-one-b{
+    margin-right: 14px;
+    height: 28px;
+    width: 28px;
+}
+.box{
+    height: 69px;
+}
+.s-two{
+    height: 50px;
+    background-color: #b9e9f5;
+    display: flex;
+    justify-content: space-between;
+}
+.s-two p{
+    margin: 0;
+    padding-top: 15px;
+    padding-left: 16px;
+    font-size: 16px;
+}
+.s-two-a{
+    margin-top: 6px;
+    margin-right: 8px;
+}
+.s-two-b{
+    position: absolute;
+    right: 0%;
+    opacity: 0;
+    width: 88px;
+    transform: rotate(180deg);
+}
+.s-three{
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 17px solid #b9e9f5;
+    margin-left: 31px;
+}
+.s-four{
+    color: #ffffff;
+    margin-left: 26px;
+    font-size: 18px
+}
+.z-one-a{
+    width: 22vw;
+    height: 22vw;
+    text-align: center;
+    background-color: #f5c97b;
+    border: 3px solid;
+    border-color: #ffffff;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.z-one-a p{
+    margin: 0;
+    padding-top: 17%;
+    height: 48%;
+    font-size: 5vw;
+}
+.z-one-b{
+    height: 35%;
+    background-color: #83b09a;
+    color: #ffffff;
+}
+.z-one-b p{
+    padding: 0;
+    height: 22px;
+    font-size: 4vw;
+    padding-top: 4%;
+}
+.z-one{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6%;
+}
+.z-one-c{
+    width: 22vw;
+    height: 6vw;
+    opacity: 0;
+}
+.z-one-a:hover .z-one-c{
+    width: 22vw;
+    height: 6vw;
+    opacity: 1;
+}
+.x{
+    position: fixed;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    background-color: #29bde0;
+}
+.x-one{
+    margin-top: 17px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-left: 70px;
+    margin-right: 70px;
+    background-color: #fbb435;
+    text-align: center;
+}
+.x-one span{
+    color: #fff;
+}
+.box-a{
+    height: 120px;
+}
+a{
+text-decoration : none;
+}

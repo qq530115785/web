@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+}
+.s{
+    background-color: #29bde0;
+    height: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid;
+    border-bottom-color: #74d4eb;
+    position: fixed;
+    width: 100%;
+}
+.s-one-a{
+    margin-left: 7px;
+}
+.s p{font-size: 22px;
+    margin: 0;
+    margin-top: 7px;
+    color: #fff;
+}
+.s-one-b{
+    margin-right: 7px;
+}
+.box{
+    height: 66px;
+}
+.z{
+    background-color: #29bde0;
+    height: 222px;
+    text-align: center;
+}
+.z-one-a{
+    margin-top: 7px;
+}
+.z p{
+    font-size: 18px;
+    margin-left: 21px;
+    margin-right: 21px;
+    color: #ffc865;
+    font-weight: bold;
+}
+.z-two{
+    background-color: #29bde0;
+    height: 114px;
+}
+.z-two-a{
+    display: block;
+    margin-left: 7%;
+    color: #ffffff;
+}
+.z-two-c{
+    margin-left: 7%;
+    color: #ffffff;
+}
+.z-two-cx{
+    margin-left: 7%;
+    color: #ffffff;
+    letter-spacing: 12px;
+}
+.z-two-cxx{
+    color: #ffffff;
+}
+.z-two-d{
+    margin: 0;
+    margin-left: 7%;
+    color: #ffffff;
+}
+.z-three{
+    height: 69px;
+    border-bottom: 1px solid;
+    border-bottom-color: #dddddd
+}
+.z-three-a{
+    margin-left: 7%;
+    font-size: 15px;
+}
+.z-three-b{
+    margin-left: 101px;
+    font-size: 7%;
+    margin-top: 3px;
+    color: #c7c7c7;
+}
+.z-three-c{
+    margin: 0;
+    margin-left: 7%;
+    font-size: 13px;
+    color: #a6a6a6;
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
+.z-three-d{
+    margin: 0;
+    margin-left: 7%;
+    font-size: 13px;
+    color: #a6a6a6;
+}
+.x{
+    background-color: #29bde0;
+    opacity: 0.5;
+    height: 68px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.x-one-a{
+    margin: 0px;
+    position: fixed;
+    left: 7%;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    top: 91%;
+    padding-left: 9%;
+    padding-right: 9%;
+    background-color: #f66f6f;
+    border-radius: 8px;
+    color: #ffffff;
+}
+.x-one-b{
+    margin: 0px;
+    position: fixed;
+    right: 7%;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    top: 91%;
+    padding-left: 7%;
+    padding-right: 7%;
+    background-color: #fbb435;
+    border-radius: 8px;
+    color: #ffffff;
+}
+.box-two{
+    width: 100%;
+    height: 70px;
+}
