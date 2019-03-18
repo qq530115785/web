@@ -1,0 +1,363 @@
+body{
+    margin: 0;
+    background-color: #fafafa;
+}
+.s{
+}
+.s-one{
+    display: flex;
+    justify-content: space-between;
+}
+.s-one-a{
+    color: #29b078;
+    margin: 7px 0 0 20px;
+}
+.s-one-b{
+    margin: 5px 20px 5px 0;
+}
+.s-one-c{
+    margin: 9px 20px 0 0;
+    color: #29b078;
+    display: none;
+}
+.s-one-c p{
+    margin: 0;
+    text-align: right;
+    margin-top: 6px;
+    height: 26px;
+}
+@media screen and (max-width: 700px) {
+    .s-one{
+        display: none;
+    }
+    .s-one-c{
+        display: block;
+    }
+}
+.s-two{
+    background-color: #29b078;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.s-two-a{
+    height: 33px;
+    width: 182px;
+    position: absolute;
+    left: 20px;
+}
+.s-two-b{
+    position: absolute;
+    right: 8px;
+
+}
+.s-two-c{
+    color: #ffffff;
+    margin-right: 12px;
+    padding-bottom: 20px;
+}
+.s-two-c:hover{
+    border-bottom: 2px solid #ffffff;
+}
+.s-two-d{
+    padding: 8px 9px 8px 9px;
+    border: 1px solid;
+    border-color: #ddd;
+    border-radius: 5px;
+    position: absolute;
+    right: 28px;
+    display: none;
+}
+@media screen and (max-width: 700px) {
+    .s-two-b{
+        display: none;
+    }
+    .s-two-d {
+        display: block;
+    }
+}
+@media screen and (min-width: 700px) {
+    .collapse{
+        display: none;
+    }
+}
+.s-three-a{
+    position: absolute;
+    top: 46px;
+    right: 8px;
+    opacity: 0;
+    display: none;
+}
+@media screen and (max-width: 700px) {
+    .s-three-a{
+        display: block;
+    }
+}
+.s-three-b{
+    background-color: #29b078;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.s-three-b p{
+    color: #ffffff;
+    height: 31px;
+    margin-bottom: 0;
+}
+.s-three-b p:hover{
+    color: #020000;
+    border-bottom: 3px solid;
+    border-bottom-color: #ffffff;
+}
+li{
+    width: 12px;
+    height: 12px;
+    border: 1px solid;
+    border-radius: 45px;
+    border-color: #ffffff;
+    margin-left: 10px;
+}
+li:hover{
+    background-color: #ffffff;
+}
+.s-four-a{
+    position: absolute;
+    right: 0;
+    bottom: -7px;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}
+.container{
+    text-align: center;
+    color: #9a9a9a;
+}
+.z-three-b{
+    color: #29b078;
+}
+@media (min-width: 576px) {
+    .col-sm {
+        -ms-flex-preferred-size: 0;
+        flex-basis: 0;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        max-width: 100%;
+    }
+}
+@media (min-width: 960px) {
+    .col-lg {
+        -ms-flex-preferred-size: 0;
+        flex-basis: 0;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        max-width: 100%;
+    }
+    .me-box{
+        border-left: 1px dashed;
+        border-left-color: #999999;
+    }
+}
+@media (min-width: 1200px) {
+    .col-xl {
+        -ms-flex-preferred-size: 0;
+        flex-basis: 0;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        max-width: 12%;
+    }
+    .me-box{
+        border-left: 1px dashed;
+        border-left-color: #999999;
+    }
+}
+.col-sm-12{
+    padding: 50px 0;
+}
+.col-lg-6{
+    padding: 50px 0;
+}
+.col-xl-3{
+    padding: 50px 0;
+}
+.ui-box{
+    color: #333333;
+}
+.sm1-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+.sm2-box {
+    height: 50px;
+    min-width: 50px;
+    border-radius: 45px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 1px 1px #f4f4f4;
+    color: #29b078;
+    line-height: 42px;
+}
+.hd-box{
+    color: #333333;
+}
+.cd{
+    text-align: -webkit-center;
+    box-shadow:5px 5px 5px #f4f4f4;
+    border-radius: 6px;
+    border: 5px solid #fff;
+}
+.cd-img-top{
+    width: 100px;
+    padding-top: 15px;
+}
+.um1-box{
+    justify-content: center;
+    width: 100%;
+
+}
+.um2-box{
+    display: flex;
+    justify-content: center;
+}
+.radius-bottom{
+    border-radius: 25px;
+    width: 15px;
+    height: 15px;
+    background-color: #f0f0f0;
+    margin: 5px;
+}
+.hd2-box{
+    border: solid 5px #fff;
+    box-shadow:5px 5px 5px #f4f4f4;
+    margin: 10px 0;
+    text-align: -webkit-center;
+    padding: 0;
+}
+.hd3a-box{
+    background-image: url("inm/task08-tupian1.png");
+    background-size: 100% 100%;
+    width: 151px;
+    height: 146px;
+}
+.hd3b-box{
+    background-image: url("inm/task08-tupian2.png");
+    background-size: 100% 100%;
+    width: 151px;
+    height: 146px;
+}
+.hd3c-box{
+    background-image: url("inm/task08-tupian3.png");
+    background-size: 100% 100%;
+    width: 151px;
+    height: 146px;
+}
+.hd3d-box{
+    background-image: url("inm/task08-tupian4.png");
+    background-size: 100% 100%;
+    width: 151px;
+    height: 146px;
+}
+.hd3e-box{
+    background-image: url("inm/task08-tupian5.png");
+    background-size: 100% 100%;
+    width: 151px;
+    height: 146px;
+}
+.hd2-box:hover{
+    border: 5px solid;
+    border-color: #999999;
+}
+@media (min-width: 1200px) {
+    .hd2-box{
+        margin: 10px 19px;
+    }
+}
+.top-bottom{
+    font-size: 25px;
+    font-weight: bold;
+    color: #020000;
+}
+.top-bottom p{
+    text-align: center;
+}
+.top-inm-bottom{
+    width: 189px;
+}
+.top2-bottom{
+    padding: 0;
+}
+.top3-bottom{
+    width: 90px;
+    margin: auto;
+}
+.top4-bottom{
+    float: left;
+}
+.top4-bottom span{
+    border-bottom: 1px solid #ffffff;
+}
+.top5-bottom{
+    display: inline-block;
+    border: 4px solid #afafaf;
+    border-radius: 50%;
+    margin: 2px 2px;
+}
+@media (min-width: 1200px) {
+    .top2-bottom{
+        margin: 10px 9px;
+    }
+}
+.top4-bottom span:hover{
+    border-bottom: 1px solid #999999;
+}
+.ending{
+    background-color: #29b078;
+    width: 100%;
+    height: 430px;
+}
+.crx-ending{
+    padding-left: 172px;
+}
+.cr3-ending{
+    color: #ffffff;
+    border-bottom: 1px solid #29b078;
+}
+.cr4-ending{
+    color: #ffffff;
+}
+.cr5-ending{
+    height: 26px;
+}
+@media (min-width: 768px) {
+    .ending{
+        height: 170px;
+    }
+}
+@media (min-width: 768px) {
+    .cr-ending{
+        padding-top: 18px;
+    }
+    .cr1-ending{
+        padding-left: 40%;
+    }
+}
+.cr3-ending:hover{
+    border-bottom: 1px solid #ffffff;
+}
+.box-ending{
+    width: 100%;
+    background-color: #29b078;
+    border-top: 3px solid #32c086;
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+}
+.radius-bottom:hover{
+    background-color: #29b078;
+}
