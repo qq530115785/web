@@ -49,6 +49,7 @@
 .s-two-c{
     color: #ffffff;
     margin-right: 12px;
+    padding-bottom: 20px;
 }
 .s-two-c:hover{
     border-bottom: 2px solid #ffffff;
@@ -123,6 +124,9 @@
     height: 63px;
     padding: 21px;
 }
+.min1-box p{
+    color: #29b078;
+}
 .box{
     border: 1px solid #999999;
     height: 37rem;
@@ -159,10 +163,10 @@
     color: #74c5a0;
     margin: 0;
 }
-.max2-width:hover .ending1{
+.ending1:hover .ending2{
     background-color: #f9a372;
 }
-.max2-width p:hover{
+.ending1 p:hover{
     color: #f9a372;
 }
 .box2{

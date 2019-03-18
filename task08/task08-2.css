@@ -50,6 +50,10 @@
 .s-two-c{
     color: #ffffff;
     margin-right: 12px;
+    padding-bottom: 20px;
+}
+a{
+    font-size: 16px!important;
 }
 .s-two-c:hover{
     border-bottom: 2px solid #ffffff;
