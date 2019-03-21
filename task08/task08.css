@@ -98,6 +98,7 @@ body{
     background-color: #29b078;
     text-align: center;
     padding-bottom: 20px;
+    height: 124px;
 }
 .s-three-b p{
     color: #ffffff;
@@ -234,7 +235,7 @@ li:hover{
 }
 .hd2-box{
     border: solid 5px #fff;
-    box-shadow:5px 5px 5px #f4f4f4;
+
     margin: 10px 0;
     text-align: -webkit-center;
     padding: 0;
@@ -270,8 +271,7 @@ li:hover{
     height: 146px;
 }
 .hd2-box:hover{
-    border: 5px solid;
-    border-color: #999999;
+    box-shadow:5px 5px 5px #f4f4f4;
 }
 @media (min-width: 1200px) {
     .hd2-box{
