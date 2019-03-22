@@ -85,9 +85,14 @@ body{
 }
 .max4{
     position: absolute;
-    right: 9vw;
+    right: 12vw;
     top: 49px;
     opacity: 0;
+}
+@media screen and (max-width: 620px) {
+    .max4{
+        right: 7vw;
+    }
 }
 .max5{
     text-align: center;
@@ -229,4 +234,10 @@ input[type="radio"] {
 }
 .footer-1 span:hover{
     color: #1d7ad9;
+}
+.bottom{
+    background-color: #1d7ad9;
+    font-size: 11px;
+    text-align: center;
+    color: #ffffff;
 }
