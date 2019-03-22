@@ -207,6 +207,7 @@
 }
 .cr4-ending{
     color: #ffffff;
+    padding-bottom: 3px;
 }
 .cr5-ending{
     height: 26px;
@@ -237,4 +238,7 @@
 }
 .qwe {display:none;
     -webkit-animation: cartoon 1s;
+}
+.cr6-ending{
+    display: flex;
 }

@@ -335,6 +335,7 @@ a:hover{
         }
         .cr4-ending{
             color: #ffffff;
+            padding-bottom: 3px;
         }
         .cr5-ending{
             height: 26px;
@@ -390,4 +391,7 @@ a:hover{
         }
         .qwe p:hover {
             opacity: 1;
+        }
+        .cr6-ending{
+            display: flex;
         }

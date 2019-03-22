@@ -360,3 +360,6 @@ li:hover{
 .radius-bottom:hover{
     background-color: #29b078;
 }
+.cr6-ending{
+    display: flex;
+}
