@@ -1,6 +1,8 @@
 body {
-  margin: 0;
-  background-color: #eff0f4; }
+  background-color: #eff0f4;
+  min-width: 320px;
+  max-width: 780px;
+  margin: auto; }
 
 header {
   height: 60px;
@@ -64,10 +66,24 @@ header {
 
 footer {
   display: flex;
-  margin-top: 70px;
+  margin-top: 20px;
   text-align: center;
-  justify-content: center; }
+  justify-content: center;
+  font-size: 14px; }
   footer .main {
     width: 100px; }
+
+.min {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px; }
+  .min .max {
+    width: 70px;
+    height: 1px;
+    background-color: #9a9a9a; }
+  .min span {
+    font-size: 14px;
+    color: #9a9a9a; }
 
 /*# sourceMappingURL=task11.css.map */
