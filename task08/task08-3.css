@@ -108,7 +108,10 @@
     border-bottom-color: #ffffff;
 }
 .max1-row{
-    padding: 0;
+    padding: 0!important;
+}
+.max2-row{
+    padding: 0!important;
 }
 @media screen and (min-width: 1200px) {
     .max1-row{
@@ -221,7 +224,10 @@
 }
 @media (min-width: 768px) {
     .cr-ending{
-        padding-top: 18px;
+        padding: 18px 0 0!important;
+    }
+    .cr1x-ending{
+        float: right;
     }
 }
 @media screen and (min-width: 1200px) {

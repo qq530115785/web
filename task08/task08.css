@@ -201,13 +201,15 @@ li:hover{
     align-items: center
 }
 .sm2-box {
-    height: 50px;
+    min-height: 50px;
     min-width: 50px;
     border-radius: 45px;
     background-color: #ffffff;
     box-shadow: 1px 1px 1px 1px #f4f4f4;
     color: #29b078;
-    line-height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .hd-box{
     color: #333333;
