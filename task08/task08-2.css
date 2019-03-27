@@ -1,19 +1,22 @@
 .s-one{
-    display: flex;
-    justify-content: space-between;
-    padding: 0 9% 0 8%;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    width: -webkit-fill-available;
 }
 .s-one-a{
     color: #29b078;
-    margin: 7px 0 0 20px;
+    margin: 7px 0 0 0;
+    float: left;
 }
 .s-one-b{
-    margin: 5px 20px 5px 0;
+    margin: 5px 0 5px 0;
+    float: right;
 }
 .s-one-c{
-    margin: 9px 20px 0 0;
     color: #29b078;
     display: none;
+    float: right;
+    width: -webkit-fill-available;
 }
 .s-one-c p{
     margin: 0;
@@ -32,24 +35,24 @@
 .s-two{
     background-color: #29b078;
     height: 65px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+}
+.s-two-box{
+    width: -webkit-fill-available;
+    padding-top: 18px;
 }
 .s-two-a{
     height: 33px;
     width: 182px;
-    position: absolute;
-    left: 9%;
+    float: left;
 }
 .s-two-b{
-    position: absolute;
-    right: 9%;
-
+    float: right;
+    padding-top: 6px;
 }
 .s-two-c{
     color: #ffffff;
-    padding: 0 12px 20px;
+    padding: 0 12px 17px;
+    border-bottom: 2px solid #29b078;
 }
 a{
     font-size: 16px!important;
@@ -62,8 +65,7 @@ a{
     border: 1px solid;
     border-color: #ddd;
     border-radius: 5px;
-    position: absolute;
-    right: 28px;
+    float: right;
     display: none;
 }
 @media screen and (max-width: 700px) {
@@ -72,6 +74,11 @@ a{
     }
     .s-two-d {
         display: block;
+    }
+}
+@media screen and (min-width: 700px) {
+    .collapse{
+        display: none;
     }
 }
 .s-three-a{
@@ -86,16 +93,12 @@ a{
         display: block;
     }
 }
-@media screen and (min-width: 700px) {
-    .collapse{
-        display: none;
-    }
-}
 .s-three-b{
     background-color: #29b078;
     text-align: center;
     padding-bottom: 20px;
     height: 124px;
+    width: -webkit-fill-available;
 }
 .s-three-b p{
     color: #ffffff;
@@ -109,18 +112,28 @@ a{
 }
 .min1-box{
     height: 195px;
+    width: -webkit-fill-available;
 }
+
 .max1-width{
-    margin: 20px 9% 0;
+    margin: 20px 0 0;
     padding-bottom: 20px;
     border-bottom: 1px solid #d0d6d9;
+}
+@media screen and (min-width: 1200px) {
+    .min3{
+        padding: 0 12px 0 0!important;
+    }
+    .min4{
+        padding: 0!important;
+    }
 }
 .cr2-width{
     color: #29b078;
     font-weight: bold;
 }
 .max2-width{
-    margin: 20px 9% 0;
+    margin: 20px 0 0;
     padding-bottom: 20px;
     border-bottom: 1px solid #edf1f2;
 }
@@ -138,11 +151,12 @@ a:hover{
     background-color: #29b078;
 }
 .max3-width{
-    margin: 20px 9% 0;
+    margin: 20px 0 0;
     padding-bottom: 20px;
     border-bottom: 1px solid #d0d6d9;
     font-weight: bold;
     font-size: 17px;
+    width: -webkit-fill-available;
 }
         .grid{
             display: grid;
@@ -395,3 +409,8 @@ a:hover{
         .cr6-ending{
             display: flex;
         }
+@media (min-width: 1200px) {
+    .cr1x-ending{
+        float: right;
+    }
+}

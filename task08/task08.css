@@ -5,20 +5,24 @@ body{
 .s{
 }
 .s-one{
-    display: flex;
-    justify-content: space-between;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    width: -webkit-fill-available;
 }
 .s-one-a{
     color: #29b078;
-    margin: 7px 0 0 20px;
+    margin: 7px 0 0 0;
+    float: left;
 }
 .s-one-b{
-    margin: 5px 20px 5px 0;
+    margin: 5px 0 5px 0;
+    float: right;
 }
 .s-one-c{
-    margin: 9px 20px 0 0;
     color: #29b078;
     display: none;
+    float: right;
+    width: -webkit-fill-available;
 }
 .s-one-c p{
     margin: 0;
@@ -37,24 +41,24 @@ body{
 .s-two{
     background-color: #29b078;
     height: 65px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+}
+.s-two-box{
+    width: -webkit-fill-available;
+    padding-top: 18px;
 }
 .s-two-a{
     height: 33px;
     width: 182px;
-    position: absolute;
-    left: 20px;
+    float: left;
 }
 .s-two-b{
-    position: absolute;
-    right: 8px;
-
+    float: right;
+    padding-top: 6px;
 }
 .s-two-c{
     color: #ffffff;
-    padding: 0 12px 20px;
+    padding: 0 12px 17px;
+    border-bottom: 2px solid #29b078;
 }
 .s-two-c:hover{
     border-bottom: 2px solid #ffffff;
@@ -64,8 +68,7 @@ body{
     border: 1px solid;
     border-color: #ddd;
     border-radius: 5px;
-    position: absolute;
-    right: 28px;
+    float: right;
     display: none;
 }
 @media screen and (max-width: 700px) {
@@ -98,6 +101,7 @@ body{
     text-align: center;
     padding-bottom: 20px;
     height: 124px;
+    width: -webkit-fill-available;
 }
 .s-three-b p{
     color: #ffffff;
@@ -175,6 +179,8 @@ li:hover{
     .me-box{
         border-left: 1px dashed;
         border-left-color: #999999;
+        float: right;
+        padding: 35px 0 0 68px;
     }
 }
 .col-sm-12{
@@ -333,6 +339,9 @@ li:hover{
 .cr5-ending{
     height: 26px;
 }
+.cr6-ending{
+    display: flex;
+}
 @media (min-width: 768px) {
     .ending{
         height: 170px;
@@ -343,7 +352,11 @@ li:hover{
         padding-top: 18px;
     }
     .cr1-ending{
-        padding-left: 40%;
+        padding-left: 12px;
+    }
+    .cr1x-ending{
+        float: right;
+        padding-right: 12px;
     }
 }
 .cr3-ending:hover{
@@ -357,9 +370,9 @@ li:hover{
     font-size: 14px;
     color: #ffffff;
 }
+.box-ending p{
+    margin: 0;
+}
 .radius-bottom:hover{
     background-color: #29b078;
-}
-.cr6-ending{
-    display: flex;
 }
