@@ -249,6 +249,9 @@
     font-size: 14px;
     color: #ffffff;
 }
+.box-ending p{
+    margin: 0;
+}
 .qwe {display:none;
     -webkit-animation: cartoon 1s;
 }
