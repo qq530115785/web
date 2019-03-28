@@ -19,6 +19,8 @@ body{
     font-size: 14px;
     height: 35px;
     align-items: center;
+    border-left: 1px solid;
+    border-right: 1px solid;
 }
 .min2{
     padding: 9px;
@@ -230,6 +232,16 @@ input[type="radio"] {
 @media screen and (max-width: 1200px) {
     .footer-3{
         float: left!important;
+    }
+}
+@media screen and (max-width: 1150px) {
+    label{
+        margin-left: 35px;
+    }
+}
+@media screen and (max-width: 1150px) {
+    .abc{
+        margin-left: 0!important;
     }
 }
 .footer-1 span:hover{
