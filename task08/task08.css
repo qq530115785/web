@@ -274,7 +274,7 @@ li:hover{
 .hd3e-box{
     background-image: url("inm/task08-tupian5.png");
     background-size: 100% 100%;
-    width: 151px;
+    width: 154px;
     height: 146px;
 }
 .hd2-box:hover{
@@ -326,7 +326,7 @@ li:hover{
 .ending{
     background-color: #29b078;
     width: 100%;
-    height: 430px;
+    height: 392px;
 }
 .crx-ending{
     padding-left: 172px;
@@ -334,6 +334,9 @@ li:hover{
 .cr3-ending{
     color: #ffffff;
     border-bottom: 1px solid #29b078;
+}
+.crq-ending{
+    color: #ffffff;
 }
 .cr4-ending{
     color: #ffffff;
@@ -377,4 +380,8 @@ li:hover{
 }
 .radius-bottom:hover{
     background-color: #29b078;
+}
+.row{
+    margin-right: 0!important;
+    margin-left: 0!important;
 }
