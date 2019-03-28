@@ -1,0 +1,253 @@
+body{
+    margin: 0;
+}
+.top{
+    background-color: #1d7ad9;
+    height: 35px;
+    color: #ffffff;
+}
+.max1{
+    float: left;
+    display: flex;
+    font-size: 14px;
+    height: 35px;
+    align-items: center;
+}
+.max2{
+    float: right;
+    display: flex;
+    font-size: 14px;
+    height: 35px;
+    align-items: center;
+}
+.min2{
+    padding: 9px;
+}
+.min2:hover{
+    background-color: #ffffff;
+    color: #020000;
+    font-size: 17px;
+}
+.header{
+    background-color: #f9f9f9;
+}
+.max3{
+    display: flex;
+    align-items: center;
+    float: right;
+    height: 70px;
+}
+.max3 span{
+    padding: 9px 12px;
+    box-shadow: 5px 5px 5px #f4f4f4;
+    border-radius: 7px;
+    width: 100px;
+    text-align: center;
+    background-color: #ffffff;
+    margin-left: 10px;
+}
+.max3 span:hover{
+    background-color: #1d7ad9;
+    color: #ffffff;
+}
+@media screen and (max-width: 700px) {
+    .max3{
+        display: none;
+    }
+}
+.box{
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 45px;
+    float: right;
+    margin-top: 14px;
+    display: none;
+}
+.box-1{
+    width: 22px;
+    height: 2px;
+    margin-top: 7px;
+    background-color: #999999;
+}
+@media screen and (max-width: 700px) {
+    .box{
+        display: block;
+    }
+}
+@media screen and (min-width: 700px) {
+    .max4{
+        display: none;
+    }
+    .max5{
+        display: none;
+    }
+}
+.max4{
+    position: absolute;
+    right: 12vw;
+    top: 49px;
+    opacity: 0;
+}
+@media screen and (max-width: 620px) {
+    .max4{
+        right: 7vw;
+    }
+}
+.max5{
+    text-align: center;
+}
+.max5 p{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin: 10px 12px;
+    border: 1px solid #999;
+    border-radius: 6px;
+    box-shadow: 5px 5px 5px #999;
+    font-size: 14px;
+}
+.max5 p:hover{
+    background-color: #1d7ad9;
+    color: #ffffff;
+}
+.main{
+    margin: 16px 0 0 0;
+    height: 120px;
+}
+.container3{
+    float: right;
+    text-align: center;
+}
+.max6{
+    display: flex;
+}
+.min3{
+    width: 40px;
+    height: 4px;
+    background-color: #999999;
+    margin-top: 8px;
+}
+.min4{
+    width: 20px;
+    height: 20px;
+    background-color: #999999;
+    border-radius: 25px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 13px
+}
+.min5{
+    display: block;
+    margin-top: 10px;
+}
+.container3:hover .min3{
+    background-color: #ff7f02;
+}
+.container3:hover .min4{
+    background-color: #ff7f02;
+}
+.container3:hover .min5{
+    color: #ff7f02;
+}
+.max7{
+    padding-left: 6px;
+    border-left: 2px solid #1d7ad9;
+}
+.row{
+    padding: 0 13px;
+}
+.max8{
+    background-color: #f3f3f3;
+    width: 100%;
+    color: #1d7ad9;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.max8-min1{
+    margin: 0 12px;
+}
+.max9{
+    text-align: center;
+    margin: 12px 0;
+}
+input[type="radio"] + label::before {
+    content: "\a0"; /*不换行空格*/
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    width: 1em;
+    height: 1em;
+    margin-right: .4em;
+    border-radius: 50%;
+    border: 1px solid #999999;
+    text-indent: .15em;
+    line-height: 1;
+}
+input[type="radio"]:checked + label::before {
+    border: 5px solid #1d7ad9;
+    background-clip: content-box;
+    padding: .2em;
+}
+input[type="radio"] {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+.select{
+    -webkit-appearance: none;
+    padding-right: 25px;
+    background-image: url(inm/task10-jiantou.png);
+    background-repeat: no-repeat;
+    background-position: 65px 0;
+}
+@media screen and (max-width: 1200px) {
+    .select{
+        position: static!important;
+        top: 0!important;
+    }
+}
+.max10 {
+    height: 15rem;
+}
+.max10-2{
+    padding: 12px 24px;
+    background-color: #e15053;
+    color: #ffffff;
+    width: 174px;
+    border-radius: 5px;
+}
+.footer-one{
+    padding-top: 27px;
+}
+.footer-1{
+    width: 201px;
+    padding-top: 27px;
+}
+.footer-3 {
+    float: right;
+    padding-top: 27px;
+}
+@media screen and (max-width: 1200px) {
+    .footer-3{
+        float: left!important;
+    }
+}
+@media screen and (max-width: 1150px) {
+    label{
+        margin-left: 35px;
+    }
+}
+@media screen and (max-width: 1150px) {
+    .abc{
+        margin-left: 0!important;
+    }
+}
+.footer-1 span:hover{
+    color: #1d7ad9;
+}
+.bottom{
+    background-color: #1d7ad9;
+    font-size: 11px;
+    text-align: center;
+    color: #ffffff;
+}
