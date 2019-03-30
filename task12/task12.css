@@ -1,0 +1,158 @@
+body {
+  background-color: #fbfbfb;
+  min-width: 320px;
+  max-width: 780px;
+  margin: auto; }
+
+header {
+  height: 56px;
+  background-color: #5fc0cd;
+  position: fixed;
+  width: 100%;
+  min-width: 320px;
+  max-width: 780px;
+  margin: auto; }
+  header img {
+    padding-top: 17px;
+    padding-left: 35px;
+    width: 11px;
+    height: 21px; }
+  header div {
+    height: 39px;
+    text-align: center;
+    font-size: 19px;
+    color: #fff;
+    position: absolute;
+    top: 17px;
+    left: 43%; }
+
+.box {
+  height: 56px; }
+
+main {
+  width: 100%;
+  height: 146px;
+  background-image: url("inm/task5-beijing.png");
+  display: flex;
+  align-items: center;
+  background-size: 100% 100%; }
+  main img {
+    padding-left: 25px;
+    height: 70px;
+    width: 70px;
+    display: flex; }
+  main .min1 .max1 {
+    display: flex;
+    color: #fff;
+    height: 20px;
+    margin: 14px 0; }
+    main .min1 .max1 p {
+      margin: 0;
+      padding-left: 27px; }
+    main .min1 .max1 span {
+      padding-left: 12px;
+      font-size: 14px;
+      padding-top: 2px; }
+  main .min1 .max1 .img2 {
+    width: 12px;
+    height: 16px; }
+  main .min1 .max1 .max2, main .min1 .max1 .main2 .max3, .main2 main .min1 .max1 .max3, main .min1 .max1 .main2 .max4, .main2 main .min1 .max1 .max4, main .min1 .max1 .main2 .max5, .main2 main .min1 .max1 .max5 {
+    font-size: 11px;
+    color: #fff; }
+
+.main2 .max1 {
+  margin-left: 14px;
+  padding-left: 14px;
+  border-left: 2px solid;
+  border-left-color: #5fc0cd;
+  margin-top: 13px;
+  margin-bottom: 13px; }
+.main2 .max2, .main2 .max3, .main2 .max4, .main2 .max5 {
+  padding-top: 14px;
+  border-top: 1px solid;
+  border-top-color: #e1e5e7;
+  height: 36px; }
+  .main2 .max2 .img1, .main2 .max3 .img1, .main2 .max4 .img1, .main2 .max5 .img1 {
+    padding-top: 1px;
+    padding-left: 31px; }
+  .main2 .max2 .img2, .main2 .max3 .img2, .main2 .max4 .img2, .main2 .max5 .img2 {
+    border-left: 1px solid;
+    border-left-color: #e1e5e7;
+    margin-left: 11px;
+    padding-left: 17px; }
+.main2 .max3, .main2 .max4, .main2 .max5 {
+  height: 36px;
+  display: inline-flex;
+  width: 93%;
+  margin-left: 20px; }
+  .main2 .max3 p, .main2 .max4 p, .main2 .max5 p {
+    height: 20px;
+    margin: 0px;
+    margin-left: 15px;
+    padding-right: 27px;
+    color: #999999; }
+  .main2 .max3 span, .main2 .max4 span, .main2 .max5 span {
+    padding-left: 15px;
+    border-left: 1px solid;
+    border-left-color: #e1e5e7;
+    height: 20px; }
+.main2 .max5 {
+  border-bottom: 1px solid #e1e5e7; }
+  .main2 .max5 span {
+    color: #e26163; }
+.main2 .max6 {
+  display: flex;
+  align-items: center;
+  min-height: 4rem;
+  /* border: none; */
+  border-bottom: 1px solid #e1e5e7;
+  /* margin: 0 1rem; */
+  margin-left: 20px;
+  margin-bottom: 10rem; }
+  .main2 .max6 span {
+    border-right: 1px solid;
+    border-right-color: #e1e5e7;
+    /* padding: 0 0.6rem; */
+    min-width: 90px;
+    margin-left: 15px;
+    color: #999999; }
+  .main2 .max6 p {
+    padding: 0 15px; }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+  padding-top: 17px;
+  padding-bottom: 3px;
+  min-width: 320px;
+  max-width: 780px;
+  margin: auto; }
+  footer .max1 {
+    font-size: 17px;
+    margin-left: 20px;
+    padding-left: 12%;
+    padding-right: 12%;
+    border: 1px solid #5fc0cd;
+    height: 28px;
+    padding-top: 8px;
+    border-radius: 7px;
+    float: left;
+    width: 11%;
+    text-align: center; }
+  footer .max2, footer .main2 .max3, .main2 footer .max3, footer .main2 .max4, .main2 footer .max4, footer .main2 .max5, .main2 footer .max5 {
+    font-size: 17px;
+    padding-top: 8px;
+    padding-left: 8%;
+    float: right;
+    background-color: #5fc0cd;
+    height: 30px;
+    padding-right: 8%;
+    border-radius: 7px;
+    text-align: center;
+    margin-right: 20px;
+    width: 22%;
+    color: #fff; }
+
+/*# sourceMappingURL=task12.css.map */
