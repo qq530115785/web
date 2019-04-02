@@ -1,13 +1,11 @@
 body {
   background-color: #fbfbfb;
-  min-width: 320px;
   max-width: 780px;
   margin: auto; }
 
 header {
   position: fixed;
   width: 100%;
-  min-width: 320px;
   max-width: 780px;
   margin: auto; }
   header .max1 {
@@ -40,7 +38,7 @@ header {
     background-color: #fff; }
     header .max2 .dropdown {
       display: inline-block;
-      width: 32%;
+      width: 31.9%;
       text-align: center;
       border-right: 1px solid;
       border-right-color: #e1e5e7;

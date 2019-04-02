@@ -55,7 +55,8 @@ main {
       padding-top: 2px; }
   main .min1 .max1 .img2 {
     width: 12px;
-    height: 16px; }
+    height: 16px;
+    padding-right: 5px; }
   main .min1 .max1 .max2, main .min1 .max1 .main2 .max3, .main2 main .min1 .max1 .max3, main .min1 .max1 .main2 .max4, .main2 main .min1 .max1 .max4, main .min1 .max1 .main2 .max5, .main2 main .min1 .max1 .max5 {
     font-size: 11px;
     color: #fff; }
@@ -107,7 +108,7 @@ main {
   /* border: none; */
   border-bottom: 1px solid #e1e5e7;
   /* margin: 0 1rem; */
-  margin-left: 20px;
+  padding-left: 20px;
   margin-bottom: 10rem; }
   .main2 .max6 span {
     border-right: 1px solid;
