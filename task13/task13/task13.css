@@ -1,0 +1,134 @@
+html {
+  overflow: hidden; }
+
+body {
+  background-color: #f0f0f0;
+  min-width: 320px;
+  max-width: 780px;
+  margin: auto !important;
+  position: relative;
+  overflow: hidden; }
+
+#side {
+  display: none; }
+
+#side:checked + aside {
+  left: 0; }
+
+#side:checked ~ #wrap {
+  margin-right: -50%;
+  padding-left: 50%;
+  background-color: #29bde0; }
+
+#side:checked ~ #wrap > main {
+  background-color: #38a2ab;
+  border-radius: 10px;
+  border: #38a2ab; }
+
+#side:checked ~ #wrap > footer {
+  background-color: #d2f5fa;
+  border-radius: 10px; }
+
+#wrap {
+  transition: 0.25s ease-out;
+  -webkit-transition: 0.25s ease-out; }
+
+aside {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -50%;
+  width: 50%;
+  background: #ffffff;
+  transition: 0.2s ease-out;
+  -webkit-transition: 0.2s ease-out; }
+  aside .box {
+    padding-top: 82px; }
+    aside .box a {
+      display: flex;
+      align-items: center;
+      height: 45px;
+      border-bottom: 1px solid #c9c9c9; }
+      aside .box a img {
+        padding: 0 12px; }
+      aside .box a span {
+        padding-right: 38px;
+        font-size: 17px;
+        color: #29bde0; }
+
+header {
+  background-color: #29bde0;
+  height: 63px; }
+  header img {
+    padding-top: 25px;
+    padding-left: 13px; }
+
+main {
+  width: 86%;
+  height: 65px;
+  background-color: #ffffff;
+  margin: 16px 0 0 7%;
+  border: 1px solid #c9c9c9;
+  display: flex;
+  align-items: center;
+  border-radius: 0; }
+  main span {
+    text-align: center;
+    color: #9a9a9a;
+    font-size: 19px;
+    width: 100%; }
+  main img {
+    margin-right: 7px; }
+
+footer {
+  width: 86%;
+  height: 21rem;
+  background-color: #ffffff;
+  margin-left: 7%;
+  margin-top: 16px;
+  border: 1px solid #c9c9c9;
+  text-align: -webkit-center;
+  border-radius: 0;
+  background-image: url("inm/task07-sanjiao.png");
+  background-position: right 135px;
+  background-size: 20px 52px;
+  background-repeat: no-repeat; }
+  footer p {
+    margin: 0;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid;
+    color: #fbb435;
+    border-bottom-color: #fdd793; }
+  footer .max1 {
+    width: 79%;
+    height: 55px;
+    background-color: #69d1e9;
+    margin-top: 12px;
+    border-radius: 10px; }
+    footer .max1 a {
+      text-decoration: none; }
+      footer .max1 a p {
+        border-bottom: 0;
+        color: #ffffff;
+        padding-top: 16px;
+        padding-bottom: 18px; }
+  footer span {
+    border-bottom: 0;
+    color: #bcbcbc;
+    font-size: 13px; }
+  footer .max2 {
+    text-align: center;
+    width: 75px; }
+    footer .max2 .min1 {
+      height: 12px;
+      width: 12px;
+      border-radius: 50px;
+      background-color: #f0f0f0;
+      float: left;
+      margin-left: 6px;
+      margin-top: 8px; }
+      footer .max2 .min1:hover {
+        background: #69d1e9; }
+
+/*# sourceMappingURL=task13.css.map */
