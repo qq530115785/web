@@ -31,7 +31,8 @@ body {
 
 #wrap {
   transition: 0.25s ease-out;
-  -webkit-transition: 0.25s ease-out; }
+  -webkit-transition: 0.25s ease-out;
+  background-color: #fff; }
 
 aside {
   position: absolute;
@@ -48,11 +49,12 @@ aside {
       display: flex;
       align-items: center;
       height: 45px;
-      border-bottom: 1px solid #c9c9c9; }
+      border-bottom: 1px solid #c9c9c9;
+      justify-content: space-between; }
       aside .box a img {
         padding: 0 12px; }
       aside .box a span {
-        padding-right: 38px;
+        margin-left: -11rem;
         font-size: 17px;
         color: #29bde0; }
 
