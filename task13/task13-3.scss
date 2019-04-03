@@ -63,8 +63,6 @@ header {
     }
     .min{
       .min1{
-        margin-left: 7%;
-        color: $c;
         display: inline-block;
       }
     }
@@ -85,7 +83,8 @@ main{
       font-size: 15px;
     }
     .min1{
-      margin-left: 101px;
+      float: right;
+      margin-right: 7%;
       font-size: 7%;
       margin-top: 3px;
       color: #c7c7c7;

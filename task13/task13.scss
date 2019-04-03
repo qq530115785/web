@@ -134,4 +134,20 @@ footer{
     color: #bcbcbc;
     font-size: 13px;
   }
+  .max2{
+    text-align: center;
+    width: 75px;
+    .min1 {
+      height: 12px;
+      width: 12px;
+      border-radius: 50px;
+      background-color: #f0f0f0;
+      float: left;
+      margin-left: 6px;
+      margin-top: 8px;
+      &:hover{
+        background: #69d1e9;
+      }
+    }
+  }
 }

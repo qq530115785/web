@@ -44,8 +44,6 @@ header .max3 {
     margin-left: 7%;
     color: #fff; }
   header .max3 .min .min1 {
-    margin-left: 7%;
-    color: #fff;
     display: inline-block; }
   header .max3 p {
     margin: 0 0 0 7%;
@@ -61,7 +59,8 @@ main {
       margin-left: 7%;
       font-size: 15px; }
     main .max1 .min1 {
-      margin-left: 101px;
+      float: right;
+      margin-right: 7%;
       font-size: 7%;
       margin-top: 3px;
       color: #c7c7c7; }
