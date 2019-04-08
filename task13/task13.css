@@ -31,8 +31,7 @@ body {
 
 #wrap {
   transition: 0.25s ease-out;
-  -webkit-transition: 0.25s ease-out;
-  background-color: #fff; }
+  -webkit-transition: 0.25s ease-out; }
 
 aside {
   position: absolute;
