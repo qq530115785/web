@@ -18,7 +18,7 @@ body {
 #side:checked ~ #wrap {
   margin-right: -50%;
   padding-left: 50%;
-  background-color: #29bde0; }
+  background-color: #29bde0 !important; }
 
 #side:checked ~ #wrap > main {
   background-color: #38a2ab;
@@ -44,6 +44,9 @@ aside {
   -webkit-transition: 0.2s ease-out; }
   aside .box {
     padding-top: 82px; }
+    aside .box .max3 {
+      display: flex;
+      align-items: center; }
     aside .box a {
       display: flex;
       align-items: center;
@@ -53,7 +56,6 @@ aside {
       aside .box a img {
         padding: 0 12px; }
       aside .box a span {
-        margin-left: -11rem;
         font-size: 17px;
         color: #29bde0; }
 
