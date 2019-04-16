@@ -18,7 +18,7 @@ body {
 #side:checked ~ #wrap {
   margin-right: -50%;
   padding-left: 50%;
-  background-color: #29bde0; }
+  background-color: #29bde0 !important; }
 
 #side:checked ~ #wrap > main {
   background-color: #38a2ab;
@@ -44,15 +44,18 @@ aside {
   -webkit-transition: 0.2s ease-out; }
   aside .box {
     padding-top: 82px; }
+    aside .box .max3 {
+      display: flex;
+      align-items: center; }
     aside .box a {
       display: flex;
       align-items: center;
       height: 45px;
-      border-bottom: 1px solid #c9c9c9; }
+      border-bottom: 1px solid #c9c9c9;
+      justify-content: space-between; }
       aside .box a img {
         padding: 0 12px; }
       aside .box a span {
-        padding-right: 38px;
         font-size: 17px;
         color: #29bde0; }
 
