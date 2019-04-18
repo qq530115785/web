@@ -1,0 +1,125 @@
+body {
+  margin: 0; }
+
+.row {
+  margin-right: 0 !important;
+  margin-left: 0 !important; }
+
+.container {
+  text-align: center;
+  color: #9a9a9a; }
+
+main .min1 span {
+  color: #29b078; }
+@media (min-width: 960px) {
+  main .min1 {
+    border-left: 1px dashed;
+    border-left-color: #999999; } }
+@media (min-width: 1200px) {
+  main .min1 {
+    border-left: 1px dashed;
+    border-left-color: #999999;
+    float: right;
+    padding: 35px 0 0 68px; } }
+main .col-sm-12 {
+  padding: 50px 0; }
+main .col-lg-6 {
+  padding: 50px 0; }
+main .col-xl-3 {
+  padding: 50px 0; }
+main .min2 {
+  color: #333333; }
+main .min3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  main .min3 .max1 {
+    min-height: 50px;
+    min-width: 50px;
+    border-radius: 45px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 1px 1px #f4f4f4;
+    color: #29b078;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+main .min4 {
+  color: #333333; }
+main .min5 {
+  text-align: -webkit-center;
+  box-shadow: 5px 5px 5px #f4f4f4;
+  border-radius: 6px;
+  border: 5px solid #fff; }
+  main .min5 img {
+    width: 100px;
+    padding-top: 15px; }
+  main .min5 .card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem; }
+    main .min5 .card-body h5 {
+      font-size: 1.25rem; }
+    main .min5 .card-body .card-title {
+      margin-bottom: .75rem; }
+main .um1-box {
+  justify-content: center;
+  width: 100%;
+  display: flex; }
+  main .um1-box .radius-bottom {
+    border-radius: 25px;
+    width: 15px;
+    height: 15px;
+    background-color: #f0f0f0;
+    margin: 5px; }
+    main .um1-box .radius-bottom:hover {
+      background-color: #29b078; }
+main .hd2-box {
+  border: solid 5px #fff;
+  margin: 10px 0;
+  text-align: -webkit-center;
+  padding: 0; }
+  main .hd2-box:hover {
+    box-shadow: 5px 5px 5px #f4f4f4; }
+  @media (min-width: 1200px) {
+    main .hd2-box .hd2-box {
+      margin: 10px 19px; } }
+  main .hd2-box .hda-box, main .hd2-box .hdb-box, main .hd2-box .hdc-box, main .hd2-box .hdd-box, main .hd2-box .hde-box {
+    background-image: url("inm/task08-tupian1.png");
+    background-size: 100% 100%;
+    width: 151px;
+    height: 146px; }
+  main .hd2-box .hdb-box {
+    background-image: url("inm/task08-tupian2.png"); }
+  main .hd2-box .hdc-box {
+    background-image: url("inm/task08-tupian3.png"); }
+  main .hd2-box .hdd-box {
+    background-image: url("inm/task08-tupian4.png"); }
+  main .hd2-box .hde-box {
+    background-image: url("inm/task08-tupian5.png"); }
+main .top-bottom {
+  font-size: 25px;
+  font-weight: bold;
+  color: #020000; }
+  main .top-bottom p {
+    text-align: center; }
+main .top2-bottom {
+  padding: 0; }
+  main .top2-bottom .top3-bottom {
+    width: 90px;
+    margin: auto; }
+    main .top2-bottom .top3-bottom .top4-bottom {
+      float: left; }
+      main .top2-bottom .top3-bottom .top4-bottom .top5-bottom {
+        display: inline-block;
+        border: 4px solid #afafaf;
+        border-radius: 50%;
+        margin: 2px 2px; }
+      main .top2-bottom .top3-bottom .top4-bottom span {
+        border-bottom: 1px solid #ffffff; }
+        main .top2-bottom .top3-bottom .top4-bottom span:hover {
+          border-bottom: 1px solid #999999; }
+
+@media (min-width: 1200px) {
+  .top2-bottom {
+    margin: 10px 9px; } }
+
+/*# sourceMappingURL=task14.css.map */

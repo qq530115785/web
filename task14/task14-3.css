@@ -1,0 +1,76 @@
+body {
+  margin: 0; }
+
+@media screen and (min-width: 1200px) {
+  main .min2 {
+    padding: 0 12px 0 0 !important; }
+  main .min3 {
+    padding: 0 0 0 12px !important; } }
+main .min1 {
+  display: flex;
+  width: 100%;
+  height: 63px;
+  padding: 21px 0; }
+  main .min1 p {
+    color: #29b078;
+    margin-top: 0; }
+main .min2 {
+  padding: 0 !important; }
+  main .min2 .max1 {
+    border: 1px solid #999999;
+    height: 37rem;
+    border-radius: 7px;
+    background-color: #ffffff;
+    margin-bottom: 30px; }
+    main .min2 .max1 .max2 {
+      text-align: center;
+      padding: 12px 0;
+      background-color: #ffffff; }
+      main .min2 .max1 .max2 p {
+        margin: 0; }
+    main .min2 .max1 .max3 {
+      display: flex;
+      font-size: 14px;
+      margin-top: 21px;
+      justify-content: center; }
+      main .min2 .max1 .max3 .max4 {
+        display: flex;
+        width: 100px; }
+        main .min2 .max1 .max3 .max4:hover .max5 {
+          background-color: #f9a372; }
+      main .min2 .max1 .max3 .max5 {
+        height: 10px;
+        width: 10px;
+        border: 1px solid #f9a372;
+        border-radius: 50px;
+        margin: 5px; }
+      main .min2 .max1 .max3 p {
+        color: #74c5a0;
+        margin: 0; }
+        main .min2 .max1 .max3 p:hover {
+          color: #f9a372; }
+main .min3 {
+  padding: 0; }
+  main .min3 .max1 {
+    background-color: #ffffff;
+    border: 1px solid #999;
+    border-radius: 7px;
+    margin-bottom: 153px; }
+    main .min3 .max1 .max2 {
+      display: flex;
+      border-bottom: 1px solid #999999; }
+      main .min3 .max1 .max2 img {
+        border-radius: 15px; }
+      main .min3 .max1 .max2 p {
+        margin: 37px; }
+      @media screen and (max-width: 720px) {
+        main .min3 .max1 .max2 .max2 {
+          display: block; } }
+    main .min3 .max1 .max3 {
+      margin: 37px; }
+      main .min3 .max1 .max3 p {
+        text-align: justify;
+        text-justify: inter-ideograph;
+        text-indent: 2em; }
+
+/*# sourceMappingURL=task14-3.css.map */

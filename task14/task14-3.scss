@@ -1,0 +1,120 @@
+body{
+  margin: 0;
+}
+  main {
+    @media screen and (min-width: 1200px) {
+      .min2 {
+        padding: 0 12px 0 0 !important;
+      }
+      .min3 {
+        padding: 0 0 0 12px !important;
+      }
+    }
+
+    .min1 {
+      display: flex;
+      width: 100%;
+      height: 63px;
+      padding: 21px 0;
+
+      p {
+        color: #29b078;
+        margin-top: 0;
+      }
+    }
+
+    .min2 {
+      padding: 0 !important;
+
+      .max1 {
+        border: 1px solid #999999;
+        height: 37rem;
+        border-radius: 7px;
+        background-color: #ffffff;
+        margin-bottom: 30px;
+
+        .max2 {
+          text-align: center;
+          padding: 12px 0;
+          background-color: #ffffff;
+          p {
+            margin: 0;
+          }
+        }
+
+        .max3 {
+          display: flex;
+          font-size: 14px;
+          margin-top: 21px;
+          justify-content: center;
+
+          .max4 {
+            display: flex;
+            width: 100px;
+
+            &:hover .max5 {
+              background-color: #f9a372;
+            }
+          }
+
+          .max5 {
+            height: 10px;
+            width: 10px;
+            border: 1px solid #f9a372;
+            border-radius: 50px;
+            margin: 5px;
+          }
+
+          p {
+            color: #74c5a0;
+            margin: 0;
+
+            &:hover {
+              color: #f9a372;
+            }
+          }
+        }
+
+      }
+    }
+
+    .min3 {
+      padding: 0;
+
+      .max1 {
+        background-color: #ffffff;
+        border: 1px solid #999;
+        border-radius: 7px;
+        margin-bottom: 153px;
+
+        .max2 {
+          display: flex;
+          border-bottom: 1px solid #999999;
+
+          img {
+            border-radius: 15px;
+          }
+
+          p {
+            margin: 37px;
+          }
+
+          @media screen and (max-width: 720px) {
+            .max2 {
+              display: block;
+            }
+          }
+        }
+
+        .max3 {
+          margin: 37px;
+
+          p {
+            text-align: justify;
+            text-justify: inter-ideograph;
+            text-indent: 2em;
+          }
+        }
+      }
+    }
+  }
