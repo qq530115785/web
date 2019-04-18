@@ -1,0 +1,147 @@
+header {
+  .max1 {
+    .min1 {
+      width: -webkit-fill-available;
+
+      span {
+        color: #29b078;
+        margin: 7px 0 0 0;
+        float: left;
+      }
+
+      p {
+        margin: 5px 0 5px 0;
+        float: right;
+        display: inline;
+      }
+    }
+
+    .min2 {
+      color: #29b078;
+      display: none;
+      float: right;
+      width: -webkit-fill-available;
+
+      p {
+        margin: 0;
+        text-align: right;
+        margin-top: 6px;
+        height: 26px;
+      }
+    }
+
+    @media screen and (max-width: 700px) {
+      .min1 {
+        display: none;
+      }
+      .min2 {
+        display: block;
+      }
+    }
+  }
+
+  .max2 {
+    background-color: #29b078;
+
+    .min1 {
+      width: 100%;
+
+      input {
+        display: none;
+      }
+
+      .min2 {
+        height: 70px;
+        //display: flex;
+        align-items: center;
+
+        img {
+          margin: 9px 0;
+        }
+
+        label {
+          float: right;
+          font-size: 2rem;
+          line-height: 33px;
+          text-align: center;
+          border-radius: 6px;
+          border: 2px solid #fff;
+          width: 36px;
+          color: #fff;
+          margin: 16px 0;
+
+          &:hover ul {
+            display: block;
+          }
+        }
+      }
+
+      ul {
+        padding: 0;
+        margin: 0 !important;
+        display: block;
+
+        li {
+          list-style: none;
+          color: #ffffff;
+          padding: 0 12px;
+          font-size: 18px;
+          line-height: 4;
+          border-bottom: 2px solid #29b078;
+
+          &:hover {
+            border-bottom: 2px solid #ffffff;
+          }
+
+          a {
+            text-decoration: none;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+
+    @media screen and (min-width: 700px) {
+      label {
+        display: none;
+      }
+      ul {
+        float: right;
+
+        li {
+          float: left;
+        }
+      }
+      .min2 {
+        float: left;
+      }
+    }
+    @media screen and (max-width: 700px) {
+      ul {
+        text-align: center;
+        display: none !important;
+
+        li {
+          line-height: 2 !important;
+        }
+      }
+    }
+  }
+
+  .min1 {
+    input[type='checkbox']:checked {
+      + label {
+        .choice-box {
+          label {
+            transform: rotate(-90deg);
+            transition: all 0.3s;
+          }
+        }
+      }
+
+      ~ ul {
+        display: block !important;
+      }
+    }
+  }
+}

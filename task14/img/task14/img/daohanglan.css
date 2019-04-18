@@ -1,0 +1,86 @@
+header .max1 .min1 {
+  width: -webkit-fill-available; }
+  header .max1 .min1 span {
+    color: #29b078;
+    margin: 7px 0 0 0;
+    float: left; }
+  header .max1 .min1 p {
+    margin: 5px 0 5px 0;
+    float: right;
+    display: inline; }
+header .max1 .min2 {
+  color: #29b078;
+  display: none;
+  float: right;
+  width: -webkit-fill-available; }
+  header .max1 .min2 p {
+    margin: 0;
+    text-align: right;
+    margin-top: 6px;
+    height: 26px; }
+@media screen and (max-width: 700px) {
+  header .max1 .min1 {
+    display: none; }
+  header .max1 .min2 {
+    display: block; } }
+header .max2 {
+  background-color: #29b078; }
+  header .max2 .min1 {
+    width: 100%; }
+    header .max2 .min1 input {
+      display: none; }
+    header .max2 .min1 .min2 {
+      height: 70px;
+      align-items: center; }
+      header .max2 .min1 .min2 img {
+        margin: 9px 0; }
+      header .max2 .min1 .min2 label {
+        float: right;
+        font-size: 2rem;
+        line-height: 33px;
+        text-align: center;
+        border-radius: 6px;
+        border: 2px solid #fff;
+        width: 36px;
+        color: #fff;
+        margin: 16px 0; }
+        header .max2 .min1 .min2 label:hover ul {
+          display: block; }
+    header .max2 .min1 ul {
+      padding: 0;
+      margin: 0 !important;
+      display: block; }
+      header .max2 .min1 ul li {
+        list-style: none;
+        color: #ffffff;
+        padding: 0 12px;
+        font-size: 18px;
+        line-height: 4;
+        border-bottom: 2px solid #29b078; }
+        header .max2 .min1 ul li:hover {
+          border-bottom: 2px solid #ffffff; }
+        header .max2 .min1 ul li a {
+          text-decoration: none;
+          color: #ffffff; }
+  @media screen and (min-width: 700px) {
+    header .max2 label {
+      display: none; }
+    header .max2 ul {
+      float: right; }
+      header .max2 ul li {
+        float: left; }
+    header .max2 .min2 {
+      float: left; } }
+  @media screen and (max-width: 700px) {
+    header .max2 ul {
+      text-align: center;
+      display: none !important; }
+      header .max2 ul li {
+        line-height: 2 !important; } }
+header .min1 input[type='checkbox']:checked + label .choice-box label {
+  transform: rotate(-90deg);
+  transition: all 0.3s; }
+header .min1 input[type='checkbox']:checked ~ ul {
+  display: block !important; }
+
+/*# sourceMappingURL=daohanglan.css.map */
