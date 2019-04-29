@@ -1,0 +1,27 @@
+body{
+  max-width: 780px;
+  min-width: 320px;
+  margin: auto;
+  //background-color: #29bde0;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 17px;
+  align-items: center;
+  color: #fff;
+  font-size: 20px;
+  background-color: #29bde0;
+}
+main{
+  background-color: #29bde0;
+  text-align: center;
+  .min1 {
+    padding: 0 0 12rem 0;
+    margin: 0px 13%;
+    border: 1px solid;
+    p {
+      margin: 0;
+    }
+  }
+}
