@@ -1,0 +1,35 @@
+.box {
+  width: 31%;
+  padding-bottom: 30%;
+  margin: 1%;
+  background-color: orange;
+  background-size: 100%  100%;
+  float: left;
+  border-radius: 10px; }
+
+p {
+  display: none;
+  position: absolute;
+  top: 126px;
+  left: 200px;
+  font-size: 91px; }
+
+body {
+  max-width: 780px;
+  min-width: 320px;
+  margin: auto; }
+
+button {
+  width: 97%;
+  border: 1px solid orange;
+  background-color: #ffffff;
+  height: 40px;
+  border-radius: 8px;
+  margin: 12px 0 0 1%;
+  outline: none;
+  color: orange; }
+  button:hover {
+    background-color: orange;
+    color: #ffffff; }
+
+/*# sourceMappingURL=task01.css.map */

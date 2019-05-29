@@ -1,0 +1,120 @@
+body{
+  min-width: 320px;
+  max-width: 780px;
+  margin: auto;
+}
+header{
+  background-color: #24a7c6;
+  display: flex;
+  justify-content: space-between;
+  line-height: 37px;
+  color: #fff;
+  font-size: 21px;
+  padding: 12px 0;
+  position: fixed;
+  max-width: 780px;
+  width: 100%;
+}
+main {
+  text-align: -webkit-center;
+  background-color: #f0f0f0;
+  padding: 20px;
+  .min1 {
+    p {
+      background-color: #fff;
+      padding: 20px;
+      border: 1px solid #c9c9c9;
+      margin: 0;
+      text-align: -webkit-center;
+      img {
+        float: right;
+      }
+    }
+  }
+
+  .min2 {
+    .max1 {
+      width: 50px;
+      float: left;
+      span{
+        border-left: 2px solid #c9c9c9;
+      }
+      .night {
+        border: 2px solid #c9c9c9;
+        border-radius: 50px;
+        width: 45px;
+        height: 45px;
+        /* text-align: -webkit-center; */
+        /* line-height: 4; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      p{
+        border-left: 2px solid #c9c9c9;
+        height: 30px;
+        margin: 0;
+        width: 1px;
+      }
+    }
+    .max2{
+      padding: 20.5px 0;
+      display: flex;
+      align-items: center;
+      .box{
+        width: 0;
+        height: 0;
+        border-top: 12px solid transparent;
+        border-right: 14px solid #24a7c6;
+        border-bottom: 12px solid transparent;
+        //position: absolute;
+        //top: 11.4rem;
+        //left: 6rem;
+      }
+      .murder{
+        background-color: #24a7c6;
+        //margin: 0 20px 0 87px;
+        height: 50px;
+        line-height: 3;
+        font-size: 17px;
+        color: #fff;
+        width: 61vw;
+        max-width: 40rem;
+      }
+      //.index{
+      //  background-color: #38a2ab;
+      //}
+      .murder1{
+        @extend.murder;
+      }
+      .murder2{
+        @extend.murder;
+      }
+      .murder3{
+        @extend.murder;
+      }
+    }
+    .text{
+      margin-left: 23.5px;
+      border-left: 2px solid #c9c9c9;
+    }
+    .text1{
+      @extend .text;
+    }
+  }
+}
+footer{
+  background-color: #24a7c6;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  max-width: 780px;
+  p{
+    background-color: orange;
+    padding: 12px 43px;
+    border-radius: 10px;
+    color: #ffffff;
+  }
+}

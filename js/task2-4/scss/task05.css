@@ -1,0 +1,86 @@
+body {
+  min-width: 320px;
+  max-width: 780px;
+  margin: auto; }
+
+header {
+  background-color: #24a7c6;
+  display: flex;
+  justify-content: space-between;
+  line-height: 37px;
+  color: #fff;
+  font-size: 21px;
+  padding: 12px 0;
+  position: fixed;
+  max-width: 780px;
+  width: 100%; }
+
+main {
+  text-align: -webkit-center;
+  background-color: #f0f0f0;
+  padding: 20px; }
+  main .min1 p {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #c9c9c9;
+    margin: 0;
+    text-align: -webkit-center; }
+    main .min1 p img {
+      float: right; }
+  main .min2 .max1 {
+    width: 50px;
+    float: left; }
+    main .min2 .max1 span {
+      border-left: 2px solid #c9c9c9; }
+    main .min2 .max1 .night {
+      border: 2px solid #c9c9c9;
+      border-radius: 50px;
+      width: 45px;
+      height: 45px;
+      /* text-align: -webkit-center; */
+      /* line-height: 4; */
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+    main .min2 .max1 p {
+      border-left: 2px solid #c9c9c9;
+      height: 30px;
+      margin: 0;
+      width: 1px; }
+  main .min2 .max2 {
+    padding: 20.5px 0;
+    display: flex;
+    align-items: center; }
+    main .min2 .max2 .box {
+      width: 0;
+      height: 0;
+      border-top: 12px solid transparent;
+      border-right: 14px solid #24a7c6;
+      border-bottom: 12px solid transparent; }
+    main .min2 .max2 .murder, main .min2 .max2 .murder1, main .min2 .max2 .murder2, main .min2 .max2 .murder3 {
+      background-color: #24a7c6;
+      height: 50px;
+      line-height: 3;
+      font-size: 17px;
+      color: #fff;
+      width: 61vw;
+      max-width: 40rem; }
+  main .min2 .text, main .min2 .text1 {
+    margin-left: 23.5px;
+    border-left: 2px solid #c9c9c9; }
+
+footer {
+  background-color: #24a7c6;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  max-width: 780px; }
+  footer p {
+    background-color: orange;
+    padding: 12px 43px;
+    border-radius: 10px;
+    color: #ffffff; }
+
+/*# sourceMappingURL=task05.css.map */
