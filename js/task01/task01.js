@@ -88,7 +88,7 @@ function start() {//开始按钮
             var color = randomColor();//随机取3个颜色
             box[indexArr[i]].style.background = color;
         }
-    }, 1);
+    }, 1000);
     document.getElementById("start").disabled = true;//禁用开始按钮
 }
 //结束按钮
