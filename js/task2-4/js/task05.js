@@ -3,7 +3,7 @@ die = JSON.parse(sessionStorage.getItem("die"));
 // console.log(time);
 sss();
 $(".min1").click(function () {
-    $(".murder-box").toggle();//点击隐藏显示下面的4个按钮
+    $("#murder-box").toggle();//点击隐藏显示下面的4个按钮
 });
 var day = die.length;//第一天
 sessionStorage.setItem("qqq", JSON.stringify(day));//存值qqq为1，用来判断第一次点击杀人
@@ -109,7 +109,7 @@ function sss() {
             <img  src="../inm/js4-jiantou.png" height="17" width="30"/></p>
     </div>
     <div class="min2">
-        <div class="murder-box">
+        <div class="murder-box" id="murder-box">
             <div class="max1">
                 <span></span>
                 <div class="night">

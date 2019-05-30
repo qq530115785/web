@@ -24,12 +24,14 @@ $(".role").click(function(){
     $(this).children(".min1").addClass("index");//添加一个类，改变背景颜色。index指背景颜色为#565656
     $("img").removeClass("abc");//隐藏显示小刀
     $(this).children("img").addClass("abc");//添加一个类，改变透明度opacity。abc指透明度opacity为1
+    document.getElementById("start").disabled = false; //启用开始按钮
 });
 test();
 function test() {
     $(".die").parent().off("click");
     $(".die1").parent().off("click");//.parent（）是一个遍历，用来寻找所匹配元素的父元素。这窜代码的意思就是所有拥有子元素.die的元素全部禁止点击
 }
+document.getElementById("start").disabled = true;
 $("#start").click(function () {
     var subscript = $(".min1").index($(".index"));
     var die=JSON.parse(sessionStorage.getItem("die"));
